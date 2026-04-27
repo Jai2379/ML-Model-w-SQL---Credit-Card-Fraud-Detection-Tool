@@ -35,7 +35,7 @@ To set up this project locally, follow these steps:
 
 ```bash
 # Clone the repository
-git clone <repo-link>
+git clone <[repo-link](https://github.com/Jai2379/ML-Model-w-SQL---Credit-Card-Fraud-Detection-Tool)>
 
 # Navigate into the directory
 cd <repo-name>
