@@ -42,6 +42,10 @@ cd <repo-name>
 
 # Install the required dependencies
 pip install -r requirements.txt
+
+#Download the datasets for this model from the following:
+- https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
+- https://www.kaggle.com/datasets/nelgiriyewithana/credit-card-fraud-detection-dataset-2023
 ```
 
 ---
