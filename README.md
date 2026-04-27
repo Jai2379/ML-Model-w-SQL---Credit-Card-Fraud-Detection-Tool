@@ -35,10 +35,10 @@ To set up this project locally, follow these steps:
 
 ```bash
 # Clone the repository
-git clone <[repo-link](https://github.com/Jai2379/ML-Model-w-SQL---Credit-Card-Fraud-Detection-Tool)>
+git clone https://github.com/Jai2379/ML-Model-w-SQL---Credit-Card-Fraud-Detection-Tool.git
 
-# Navigate into the directory
-cd <repo-name>
+# Navigate into the project directory
+cd ML-Model-w-SQL---Credit-Card-Fraud-Detection-Tool
 
 # Install the required dependencies
 pip install -r requirements.txt
