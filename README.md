@@ -21,7 +21,7 @@
 
 ## 🛠️ Tech Stack
 
-- **Language:** Python
+- **Language(s):** Python, SQL
 - **Data Manipulation:** Pandas, NumPy
 - **Machine Learning:** Scikit-learn, Imbalanced-learn (SMOTE)
 - **Database:** SQLite3
