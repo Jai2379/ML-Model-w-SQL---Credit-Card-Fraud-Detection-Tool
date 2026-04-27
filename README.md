@@ -52,23 +52,28 @@ pip install -r requirements.txt
 
 ## 💻 Usage
 
-The project is broken down into modular scripts for analysis, pipeline generation, and prediction.
+Follow these steps to set up, test, and adapt the fraud detection pipeline:
 
-**1. Run the core analysis and train the initial model:**
+**1. Import Dataset into Database:**
+Use the `importer.py` utility to load your CSV dataset directly into the SQLite database for testing and evaluation.
 ```bash
-python analysis.py
+python importer.py
 ```
 
-**2. Trigger the automated pipeline for dynamic feature selection and retraining:**
+**2. Check and Initialize Model:**
+Run `final_test.py` to check for a pre-existing active model. If no model is found, the pipeline will automatically create and train one to fit your current CSV dataset.
 ```bash
-python pipeline.py
+python final_test.py
 ```
 
-**3. Test real-time predictions on dummy transaction data:**
+**3. Evaluate and Adapt:**
+Test the active model against the relevant year's database. Compare the recall score with the corresponding year's CSV data. If the model exhibits low accuracy/recall (indicating shifting fraud patterns), it will initiate the adaptation pipeline to dynamically retrain on the new dataset.
+
+**4. Test and Use:**
+Once the model is properly adapted, you can run the live-scanning script to evaluate real-time transaction data, which will generate probability scores and fraud alerts.
 ```bash
 python predict_fraud.py
 ```
-
 ---
 
 ## 📂 Project Structure
