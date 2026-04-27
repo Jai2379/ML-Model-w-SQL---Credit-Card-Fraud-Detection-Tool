@@ -10,7 +10,7 @@
 
 **The Approach:** This project leverages Exploratory Data Analysis (EDA), statistical feature selection, and a Random Forest Classifier. Because fraud cases are extremely rare, we use **SMOTE (Synthetic Minority Over-sampling Technique)** to balance the dataset and ensure the model learns effectively.
 
-**I developed this project to strengthen my data science skill set, recognizing its growing importance across industries. By working with Python, SQL, and machine learning techniques, I built a foundation in extracting actionable insights from data—skills that play a critical role in driving informed decisions, reducing risk, and improving business outcomes.**
+***I developed this project to strengthen my data science skill set, recognizing its growing importance across industries. By working with Python, SQL, and machine learning techniques, I built a foundation in extracting actionable insights from data—skills that play a critical role in driving informed decisions, reducing risk, and improving business outcomes.***
 
 ### 🔍 Key Insights
 - **Severe Class Imbalance:** Fraudulent transactions make up a tiny fraction of the total dataset. Without intervention, models become heavily biased toward predicting "Normal" transactions.
