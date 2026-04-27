@@ -79,6 +79,7 @@ python predict_fraud.py
 - `models/`: Directory housing the serialized, active machine learning models (e.g., `active_model.pkl`, `final_fraud_detector.pkl`).
 - `fraud.ipynb`: A Jupyter Notebook containing in-depth EDA and data visualization.
 - `creditcard.csv`: The raw transaction dataset (ignored in version control due to size constraints).
+- `importer.py`: A utility script to upload new CSV datasets directly into the SQLite database for continuous testing and evaluation.
 
 ---
 
