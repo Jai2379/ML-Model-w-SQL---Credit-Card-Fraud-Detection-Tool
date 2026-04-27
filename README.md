@@ -46,6 +46,8 @@ pip install -r requirements.txt
 #Download the datasets for this model from the following:
 - https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
 - https://www.kaggle.com/datasets/nelgiriyewithana/credit-card-fraud-detection-dataset-2023
+
+#If using another dataset, ensure the features format corresponds to the type 'V1,V2,V3,etc..'
 ```
 
 ---
